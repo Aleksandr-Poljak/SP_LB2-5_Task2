@@ -1,0 +1,17 @@
+#include "resource.h"
+
+// Диалоговое окно
+IDD_MMFSHARE DIALOG 0, 0, 363, 166
+CAPTION "Memory Mapped File Sharing Application"
+FONT 8, "MS Sans Serif"
+BEGIN
+PUSHBUTTON      "Создать проецируемый файл", IDC_CREATEFILE, 7, 14, 140, 21
+PUSHBUTTON      "Закрыть проецируемый файл", IDC_CLOSEFILE, 7, 43, 141, 18
+LTEXT           "Данные:", IDC_STATIC, 190, 16, 30, 13
+EDITTEXT        IDC_DATA, 190, 45, 166, 23
+PUSHBUTTON      "Чтение", IDC_READ, 7, 76, 50, 14
+PUSHBUTTON      "Запись", IDC_WRITE, 76, 77, 50, 14
+END
+
+// Иконка
+IDI_MMFSHARE ICON "MMFShare.ico"
